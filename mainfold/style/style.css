@@ -1,0 +1,114 @@
+body{
+    background-color:black;
+    color:white;
+}
+table,td,th{
+    border:1px solid white;
+    padding:5px;
+    border-collapse:collapse;
+}
+.container{
+    border:1px solid white;
+    width:75%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.flexbox1,.flexbox2,.flexbox3{
+    display:flex;
+    padding:5px;
+    flex-wrap:wrap;
+    border:1px solid white;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.flexbox1,.flexbox2{
+    background:url("../images/card background.jfif");
+    background-repeat:no-repeat;
+    background-size: 100% 363px;
+}
+.flexbox1 div{
+    border:1px solid white;
+    flex:1;
+    padding:10px;
+    height:320px;
+}
+
+/*  button styles */
+.blue{
+    background-color:blue;
+    color:white;
+    width:55px;
+    height:45px;
+    margin:3px 10px;
+    border:1px solid blue;
+    border-radius:10px;
+    font-size:1.2em;
+}
+.blue:hover{
+    background-color:rgb(90, 90, 218);
+    border:1px solid rgb(90, 90, 218);
+    box-shadow: 2px 2px 20px black;
+}
+.blue:active{
+    font-size:1.5em;
+}
+.blue:focus{
+    outline:none;
+}
+.yellow{
+    background-color:orange;
+    color:white;
+    width:75px;
+    height:45px;
+    margin:3px 10px;
+    border:1px solid orange;
+    border-radius:10px;
+    font-size:1.2em;
+}
+.yellow:hover{
+    background-color: rgb(209, 159, 67);
+    border:1px solid rgb(209,159,67);
+    box-shadow: 2px 2px 20px black;
+}
+.yellow:active{
+    font-size:1.5em;
+}
+.yellow:focus{
+    outline:none;
+}
+
+.red{
+    background-color:red;
+    color:white;
+    width:65px;
+    height:45px;
+    margin:3px 10px;
+    border:1px solid red;
+    border-radius:10px;
+    font-size:1.2em;
+}
+.red:hover{
+    background-color: rgb(218, 34, 34);
+    border:1px solid rgb(218, 34, 34);
+    box-shadow: 2px 2px 20px black;
+}
+.red:active{
+    font-size:1.5em;
+}
+.red:focus{
+    outline:none;
+}
+/*button styles finished*/
+
+#you img{
+    width:20%;
+    height:30%;
+    margin:5px;
+}
+#dealer img{
+    width:20%;
+    height:30%;
+    margin:5px;
+}

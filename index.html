@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainfold/style/style.css">
+</head>
+<body>
+    <p>created by Sri Rajan</p>
+    <div class="container">
+        <!-- heading  -->
+        <h2 >Card game</h2>
+        <h3><span id="lastResult">Let's play</span></h3>
+
+        <!--card playin place-->
+        <div class="flexbox1">
+            <div id="you">
+                <h2>You:<span id="you-result">0</span></h2>
+            </div>
+            <div id="dealer">
+                <h2>Computer:<span id="dealer-result">0</span></h2>
+            </div>
+        </div>
+
+        <!--button -->
+        <div class="flexbox2">
+            <div>
+                <button class="blue" id="hit-button">Hit</button>
+                <button class="yellow" id="stand-button">Stand</button>
+                <button class="red" id="deal-button">Deal</button>
+            </div>
+        </div>
+        
+        <!--result-->
+        <div class="flexbox3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="mainfold/script/script.js"></script>
+</body>
+</html>
